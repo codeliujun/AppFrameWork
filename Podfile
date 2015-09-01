@@ -1,0 +1,8 @@
+platform :ios , '6.0'
+pod 'Masonry'
+pod 'MJExtension'
+pod 'ReactiveCocoa'
+pod 'ASIHTTPRequest'
+pod 'XMLDictionary'
+pod 'MBProgressHUD'
+pod 'Mantle'
