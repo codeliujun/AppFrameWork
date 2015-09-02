@@ -10,8 +10,6 @@
 #import "ZHIndicatorView.h"
 #import "ZHToastView.h"
 
-#import <Masonry/Masonry.h>
-
 #import "ZHBaseNavigationController.h"
 
 #define kBackButtonWidth        60

@@ -1,4 +1,4 @@
-platform :ios , '6.0'
+plantform :ios, '6.0'
 pod 'Masonry'
 pod 'MJExtension'
 pod 'ReactiveCocoa'
