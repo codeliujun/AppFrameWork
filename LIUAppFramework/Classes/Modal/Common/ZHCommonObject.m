@@ -61,9 +61,9 @@ static ZHCommonObject *oneObject = nil;
 //}
 
 + (BOOL)checkLogin:(UIViewController *)controller {
-    ZHUserObj *userObj = [ZHConfigObj configObject].userObject;
+    ZHUserObject *userObj = [ZHConfigObj configObject].userObject;
     BOOL isLogin = YES;
-    if (userObj.token.length == 0) {
+    if (userObj.Id.length == 0) {
         isLogin = NO;
 //        BCLoginController *loginController = [[BCLoginController alloc] init];
 //        BCBaseNavigationController *nav = [[BCBaseNavigationController alloc] initWithRootViewController:loginController];
@@ -74,7 +74,7 @@ static ZHCommonObject *oneObject = nil;
 }
 
 + (void)showLocationServiceAlert {
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"定位服务不可用" message:@"建议开启定位服务(设置>隐私>定位服务>开启智慧旅游定位服务)"
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"定位服务不可用" message:@"建议开启定位服务(设置>隐私>定位服务>开启悠悠酷购)"
                                                    delegate:nil cancelButtonTitle:@"确定"
                                           otherButtonTitles:nil];
     [alert show];
@@ -105,20 +105,20 @@ static ZHCommonObject *oneObject = nil;
     ZHBaseNavigationController *navMyInfo = [[ZHBaseNavigationController alloc] initWithRootViewController:myInfo];
     navMyInfo.tabBarItem.image = [UIImage imageNamed:@"user_n"];
     navMyInfo.tabBarItem.selectedImage = [UIImage imageNamed:@"user_h"];
-    navMyInfo.tabBarItem.title = @"个人中心";
+    navMyInfo.tabBarItem.title = @"分类";
 
     
     LIUMyInfoViewController *collectView = [[LIUMyInfoViewController alloc] init];
     ZHBaseNavigationController *navFind = [[ZHBaseNavigationController alloc] initWithRootViewController:collectView];
     navFind.tabBarItem.image = [UIImage imageNamed:@"collection_n"];
     navFind.tabBarItem.selectedImage = [UIImage imageNamed:@"collection_h"];
-    navFind.tabBarItem.title = @"收藏";
+    navFind.tabBarItem.title = @"购物车";
     
     LIUTeamViewController *moreView = [[LIUTeamViewController alloc] initWithNibName:nil bundle:nil];
     ZHBaseNavigationController *navMore = [[ZHBaseNavigationController alloc] initWithRootViewController:moreView];
     navMore.tabBarItem.image = [UIImage imageNamed:@"message_n"];
     navMore.tabBarItem.selectedImage = [UIImage imageNamed:@"message_h"];
-    navMore.tabBarItem.title = @"信息";
+    navMore.tabBarItem.title = @"个人中心";
     
     NSArray *array = @[navCar, navMyInfo, navFind, navMore];
     tabBarcontroller.viewControllers = array;

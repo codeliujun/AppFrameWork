@@ -29,7 +29,7 @@
 #import "UIButton+Block.h"
 
 // objects
-#import "ZHUserObj.h"
+#import "ZHUserObject.h"
 
 // global common
 #import "ZHConfigObj.h"

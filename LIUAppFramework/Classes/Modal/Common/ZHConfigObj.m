@@ -50,13 +50,13 @@ static ZHConfigObj *configObj = nil;
     return self;
 }
 
-- (ZHUserObj *)userObject {
+- (ZHUserObject *)userObject {
     if (!_userObject) {
-        _userObject = (ZHUserObj *)[[ZHCache sharedCache] objectForKey:kUserInfo];
+        _userObject = (ZHUserObject *)[[ZHCache sharedCache] objectForKey:kUserInfo];
     }
     
     if (!_userObject) {
-        _userObject = [[ZHUserObj alloc] init];
+        _userObject = [[ZHUserObject alloc] init];
     }
     
     return _userObject;

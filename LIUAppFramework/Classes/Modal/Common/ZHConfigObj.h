@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "ZHUserObj.h"
+#import "ZHUserObject.h"
 
 @interface ZHConfigObj : NSObject {
     
@@ -18,6 +18,6 @@
 
 - (void)save;//保存用户数据
 
-@property (nonatomic, strong) ZHUserObj *userObject;
+@property (nonatomic, strong) ZHUserObject *userObject;
 
 @end

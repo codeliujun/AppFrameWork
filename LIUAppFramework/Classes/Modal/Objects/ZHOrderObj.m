@@ -1,21 +1,23 @@
 //
 //  ZHOrderObj.m
-//  ZHTourist
+//  LIUAppFramework
 //
-//  Created by liujun on 15/8/13.
-//  Copyright (c) 2015年 Michael. All rights reserved.
+//  Created by liujun on 15/9/2.
+//  Copyright (c) 2015年 liujun. All rights reserved.
 //
 
 #import "ZHOrderObj.h"
 
 @implementation ZHOrderObj
 
-- (ZHGuideInfo *)guideInfo {
-    if (!_guideInfo) {
-        _guideInfo = [ZHGuideInfo new];
-    }
-    return _guideInfo;
+
++ (NSDictionary *)objectClassInArray{
+    return @{@"ImageUrls":[Imageurls class]};
 }
 
 @end
 
+
+@implementation Imageurls
+
+@end

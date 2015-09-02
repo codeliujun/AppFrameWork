@@ -102,6 +102,7 @@
  */
 -(NSString *)getCachePathStr:(NSString *)key;
 
+
 /*
  缓存有效期 默认是一天
  */

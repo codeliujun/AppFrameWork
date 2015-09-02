@@ -9,31 +9,34 @@
 #import <Foundation/Foundation.h>
 #import "ZHNetworkInterface.h"
 
-#define kServerIP       @"http://218.17.122.211:8080"
+#define kServerIP       @"http://api.coolgou.com"
 //#define kServerIP       @"http://192.168.0.233"
-#define kApiUrl                 [NSString stringWithFormat:@"%@/Api", kServerIP]
+#define kApiUrl                 [NSString stringWithFormat:@"%@/api", kServerIP]
 #define kGetRequestUrl(method)  [NSString stringWithFormat:@"%@/%@", kApiUrl, method]
 #define kGetImageUrl(relativePath)    [NSString stringWithFormat:@"%@%@", kServerIP, relativePath]
+#define kLoginUrl                   @"User/login" //登录
+#define kRegisterUrl                @"User/register" //注册
+#define kAuthcodeUrl                @"User/authcode" //获取验证码
+#define kGetHotVocabulary           @"Product/hotkey"//获取热门词汇
+#define kSearchGoods                @"Product/search"//搜索商品
+#define kAddGood                    @"Cart/add"//添加到购物车
+#define kGetCartGood                @"Cart/list"//获取购物车
+#define kChangeGoodCOunt            @"Cart/updatecount"//更改数量
+#define kDeletedGood                @"Cart/delete"//删除购物车
+#define kGetGoodComment             @"Goods/comments"//获取商品评论
+#define kCreatOrder                 @"Cart/settlement"//将商品转换为订单
+#define kCreatNo                    @"Cart/BuildNo"
+#define KGetOrderList               @"Order/list"//获取订单列表
+#define kGetAddressList             @"Address/list"//获取地址列表
+#define kGetFirstCater              @"Category/top"//获取一级分类
+#define kGetSecondCater             @"Category/second"//获取二级分类
+#define kGetInventor                @"Shop/inventory" //获取库存
+#define kAddAddress                 @"Address/add"
+#define kUpdataAddress              @"Address/update"
+#define kPayOrder                   @"Order/pay"
+#define kAddComment                 @"Goods/addcomment"
+#define kGetRecomment               @"Product/hotproducts"
 
-#define kRegistUrl                  @"user/register"                //注册
-#define kLogin                      @"user/login"                   //登录
-#define kCreatOrder                 @"order/createOrder"            //下单
-#define kGetCityList                @"seting/getLetterArea"         //获取城市列表
-#define kGetAttr                    @"seting/getAttr"               //获取语言，性别等
-#define kGetSightList               @"seting/getSightList"          //获取旅游景点
-#define kGetOrderDetail             @"order/findGuideOrderDetai"    //获取订单详情
-#define kGetOrderList               @"order/touristFindGuideOrder"
-#define kPayOrder                   @"order/touristPayOrder"
-#define kConStartServe              @"order/touristConStartServe"   //订单开始
-#define kConEndServe                @"order/touristConEndServe"     //订单完成
-#define kEvalOrder                  @"order/touristEvalOrder"       //评价
-#define kCancleOrder                @"order/touristCancelOrder"     //取消订单
-#define kGetCoupon                  @"tourist/myCoupon"             //获取优惠券
-#define kSendInsuranceInfo          @"tourist/saveInsuranceInfo"    //保存保险信息
-#define kGetOrderPusNum             @"order/getOrderPushNum"        //获取推送导游个数
-#define kGetChangeStatusLog         @"order/orderChangeStatusLog"   //获取订单日志
-#define kSaveTouristInfo            @"tourist/saveInfo"             //保存游客信息
-#define kRefreshOrderPush           @"order/refreshOrderPush"       //再次推送
 
 typedef void (^ResultBlock)(NSDictionary *result);
 typedef void (^ImageLoadBlock)(UIImage *image);

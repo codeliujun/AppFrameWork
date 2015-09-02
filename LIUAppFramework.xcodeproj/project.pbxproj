@@ -13,7 +13,6 @@
 		855D8C211B95835000CB588B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 855D8C1F1B95835000CB588B /* Main.storyboard */; };
 		855D8C231B95835000CB588B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 855D8C221B95835000CB588B /* Images.xcassets */; };
 		855D8C261B95835000CB588B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 855D8C241B95835000CB588B /* LaunchScreen.xib */; };
-		855D8C321B95835000CB588B /* LIUAppFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 855D8C311B95835000CB588B /* LIUAppFrameworkTests.m */; };
 		856DD8611B959A1300521DE1 /* NSDate+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 856DD6E41B959A1300521DE1 /* NSDate+Additions.m */; };
 		856DD8621B959A1300521DE1 /* NSObject+KVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 856DD6E61B959A1300521DE1 /* NSObject+KVC.m */; };
 		856DD8631B959A1300521DE1 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 856DD6E81B959A1300521DE1 /* NSString+Additions.m */; };
@@ -42,9 +41,6 @@
 		856DD8A41B959A1300521DE1 /* ZHNetworkValidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 856DD7671B959A1300521DE1 /* ZHNetworkValidate.m */; };
 		856DD8A51B959A1300521DE1 /* ZHRequestNetworkInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 856DD7691B959A1300521DE1 /* ZHRequestNetworkInterface.m */; };
 		856DD8A61B959A1300521DE1 /* ZHCouponObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 856DD76C1B959A1300521DE1 /* ZHCouponObj.m */; };
-		856DD8A71B959A1300521DE1 /* ZHGuideInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 856DD76E1B959A1300521DE1 /* ZHGuideInfo.m */; };
-		856DD8A81B959A1300521DE1 /* ZHOrderObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 856DD7701B959A1300521DE1 /* ZHOrderObj.m */; };
-		856DD8A91B959A1300521DE1 /* ZHUserObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 856DD7721B959A1300521DE1 /* ZHUserObj.m */; };
 		856DD8D41B959A1300521DE1 /* ZHLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = 856DD7D51B959A1300521DE1 /* ZHLanguage.m */; };
 		856DD8D51B959A1300521DE1 /* ZHUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 856DD7D71B959A1300521DE1 /* ZHUtility.m */; };
 		856DD8D61B959A1300521DE1 /* ZHBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 856DD7DA1B959A1300521DE1 /* ZHBaseNavigationController.m */; };
@@ -82,18 +78,17 @@
 		856DD95B1B959D6A00521DE1 /* LIUMyInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 856DD9591B959D6A00521DE1 /* LIUMyInfoViewController.xib */; };
 		856DD95F1B959D7700521DE1 /* LIUTeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 856DD95D1B959D7700521DE1 /* LIUTeamViewController.m */; };
 		856DD9601B959D7700521DE1 /* LIUTeamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 856DD95E1B959D7700521DE1 /* LIUTeamViewController.xib */; };
+		856DD9631B96912800521DE1 /* ZHUserObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 856DD9621B96912800521DE1 /* ZHUserObject.m */; };
+		856DD9661B9691A900521DE1 /* ZHOrderObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 856DD9651B9691A900521DE1 /* ZHOrderObj.m */; };
+		856DD96F1B96939B00521DE1 /* LIUHomeViewRecommendTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 856DD96D1B96939B00521DE1 /* LIUHomeViewRecommendTableViewCell.m */; };
+		856DD9701B96939B00521DE1 /* LIUHomeViewRecommendTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 856DD96E1B96939B00521DE1 /* LIUHomeViewRecommendTableViewCell.xib */; };
+		856DD9741B9693C600521DE1 /* LIUHomeCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 856DD9721B9693C600521DE1 /* LIUHomeCategoryCell.m */; };
+		856DD9751B9693C600521DE1 /* LIUHomeCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 856DD9731B9693C600521DE1 /* LIUHomeCategoryCell.xib */; };
+		856DD9791B969B4200521DE1 /* LIURecommendView.m in Sources */ = {isa = PBXBuildFile; fileRef = 856DD9771B969B4200521DE1 /* LIURecommendView.m */; };
+		856DD97A1B969B4200521DE1 /* LIURecommendView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 856DD9781B969B4200521DE1 /* LIURecommendView.xib */; };
+		856DD97D1B96A63B00521DE1 /* UIImage+GetUrlImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 856DD97C1B96A63A00521DE1 /* UIImage+GetUrlImage.m */; };
 		F6C1554E8199FA6AEB6247E8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9288BC740141069255A6F628 /* libPods.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		855D8C2C1B95835000CB588B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 855D8C0A1B95834F00CB588B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 855D8C111B95834F00CB588B;
-			remoteInfo = LIUAppFramework;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		7196CDBF61CE9262D1CC9789 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -108,7 +103,6 @@
 		855D8C201B95835000CB588B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		855D8C221B95835000CB588B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		855D8C251B95835000CB588B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		855D8C2B1B95835000CB588B /* LIUAppFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LIUAppFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		855D8C301B95835000CB588B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		855D8C311B95835000CB588B /* LIUAppFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIUAppFrameworkTests.m; sourceTree = "<group>"; };
 		856DD6E31B959A1300521DE1 /* NSDate+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Additions.h"; sourceTree = "<group>"; };
@@ -176,12 +170,6 @@
 		856DD7691B959A1300521DE1 /* ZHRequestNetworkInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHRequestNetworkInterface.m; sourceTree = "<group>"; };
 		856DD76B1B959A1300521DE1 /* ZHCouponObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHCouponObj.h; sourceTree = "<group>"; };
 		856DD76C1B959A1300521DE1 /* ZHCouponObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHCouponObj.m; sourceTree = "<group>"; };
-		856DD76D1B959A1300521DE1 /* ZHGuideInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHGuideInfo.h; sourceTree = "<group>"; };
-		856DD76E1B959A1300521DE1 /* ZHGuideInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHGuideInfo.m; sourceTree = "<group>"; };
-		856DD76F1B959A1300521DE1 /* ZHOrderObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHOrderObj.h; sourceTree = "<group>"; };
-		856DD7701B959A1300521DE1 /* ZHOrderObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHOrderObj.m; sourceTree = "<group>"; };
-		856DD7711B959A1300521DE1 /* ZHUserObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHUserObj.h; sourceTree = "<group>"; };
-		856DD7721B959A1300521DE1 /* ZHUserObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHUserObj.m; sourceTree = "<group>"; };
 		856DD7D41B959A1300521DE1 /* ZHLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHLanguage.h; sourceTree = "<group>"; };
 		856DD7D51B959A1300521DE1 /* ZHLanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHLanguage.m; sourceTree = "<group>"; };
 		856DD7D61B959A1300521DE1 /* ZHUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHUtility.h; sourceTree = "<group>"; };
@@ -249,6 +237,21 @@
 		856DD95C1B959D7700521DE1 /* LIUTeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIUTeamViewController.h; sourceTree = "<group>"; };
 		856DD95D1B959D7700521DE1 /* LIUTeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIUTeamViewController.m; sourceTree = "<group>"; };
 		856DD95E1B959D7700521DE1 /* LIUTeamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LIUTeamViewController.xib; sourceTree = "<group>"; };
+		856DD9611B96912800521DE1 /* ZHUserObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHUserObject.h; sourceTree = "<group>"; };
+		856DD9621B96912800521DE1 /* ZHUserObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHUserObject.m; sourceTree = "<group>"; };
+		856DD9641B9691A900521DE1 /* ZHOrderObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHOrderObj.h; sourceTree = "<group>"; };
+		856DD9651B9691A900521DE1 /* ZHOrderObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHOrderObj.m; sourceTree = "<group>"; };
+		856DD96C1B96939B00521DE1 /* LIUHomeViewRecommendTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIUHomeViewRecommendTableViewCell.h; sourceTree = "<group>"; };
+		856DD96D1B96939B00521DE1 /* LIUHomeViewRecommendTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIUHomeViewRecommendTableViewCell.m; sourceTree = "<group>"; };
+		856DD96E1B96939B00521DE1 /* LIUHomeViewRecommendTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LIUHomeViewRecommendTableViewCell.xib; sourceTree = "<group>"; };
+		856DD9711B9693C600521DE1 /* LIUHomeCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIUHomeCategoryCell.h; sourceTree = "<group>"; };
+		856DD9721B9693C600521DE1 /* LIUHomeCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIUHomeCategoryCell.m; sourceTree = "<group>"; };
+		856DD9731B9693C600521DE1 /* LIUHomeCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LIUHomeCategoryCell.xib; sourceTree = "<group>"; };
+		856DD9761B969B4200521DE1 /* LIURecommendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIURecommendView.h; sourceTree = "<group>"; };
+		856DD9771B969B4200521DE1 /* LIURecommendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIURecommendView.m; sourceTree = "<group>"; };
+		856DD9781B969B4200521DE1 /* LIURecommendView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LIURecommendView.xib; sourceTree = "<group>"; };
+		856DD97B1B96A63A00521DE1 /* UIImage+GetUrlImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GetUrlImage.h"; sourceTree = "<group>"; };
+		856DD97C1B96A63A00521DE1 /* UIImage+GetUrlImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GetUrlImage.m"; sourceTree = "<group>"; };
 		9288BC740141069255A6F628 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA9D10C20AB8EE79F0EBE0D2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -259,13 +262,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6C1554E8199FA6AEB6247E8 /* libPods.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		855D8C281B95835000CB588B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +293,6 @@
 			isa = PBXGroup;
 			children = (
 				855D8C121B95834F00CB588B /* LIUAppFramework.app */,
-				855D8C2B1B95835000CB588B /* LIUAppFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -377,6 +372,8 @@
 				856DD6F01B959A1300521DE1 /* UIColor+Additions.m */,
 				856DD6F11B959A1300521DE1 /* UIImage+Additions.h */,
 				856DD6F21B959A1300521DE1 /* UIImage+Additions.m */,
+				856DD97B1B96A63A00521DE1 /* UIImage+GetUrlImage.h */,
+				856DD97C1B96A63A00521DE1 /* UIImage+GetUrlImage.m */,
 				856DD6F31B959A1300521DE1 /* UITableView+Additions.h */,
 				856DD6F41B959A1300521DE1 /* UITableView+Additions.m */,
 			);
@@ -516,12 +513,10 @@
 			children = (
 				856DD76B1B959A1300521DE1 /* ZHCouponObj.h */,
 				856DD76C1B959A1300521DE1 /* ZHCouponObj.m */,
-				856DD76D1B959A1300521DE1 /* ZHGuideInfo.h */,
-				856DD76E1B959A1300521DE1 /* ZHGuideInfo.m */,
-				856DD76F1B959A1300521DE1 /* ZHOrderObj.h */,
-				856DD7701B959A1300521DE1 /* ZHOrderObj.m */,
-				856DD7711B959A1300521DE1 /* ZHUserObj.h */,
-				856DD7721B959A1300521DE1 /* ZHUserObj.m */,
+				856DD9611B96912800521DE1 /* ZHUserObject.h */,
+				856DD9621B96912800521DE1 /* ZHUserObject.m */,
+				856DD9641B9691A900521DE1 /* ZHOrderObj.h */,
+				856DD9651B9691A900521DE1 /* ZHOrderObj.m */,
 			);
 			path = Objects;
 			sourceTree = "<group>";
@@ -572,6 +567,9 @@
 		856DD7E01B959A1300521DE1 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				856DD9761B969B4200521DE1 /* LIURecommendView.h */,
+				856DD9771B969B4200521DE1 /* LIURecommendView.m */,
+				856DD9781B969B4200521DE1 /* LIURecommendView.xib */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -579,6 +577,12 @@
 		856DD81B1B959A1300521DE1 /* TableCells */ = {
 			isa = PBXGroup;
 			children = (
+				856DD96C1B96939B00521DE1 /* LIUHomeViewRecommendTableViewCell.h */,
+				856DD96D1B96939B00521DE1 /* LIUHomeViewRecommendTableViewCell.m */,
+				856DD96E1B96939B00521DE1 /* LIUHomeViewRecommendTableViewCell.xib */,
+				856DD9711B9693C600521DE1 /* LIUHomeCategoryCell.h */,
+				856DD9721B9693C600521DE1 /* LIUHomeCategoryCell.m */,
+				856DD9731B9693C600521DE1 /* LIUHomeCategoryCell.xib */,
 				856DD81C1B959A1300521DE1 /* BaseTableCell */,
 			);
 			path = TableCells;
@@ -695,24 +699,6 @@
 			productReference = 855D8C121B95834F00CB588B /* LIUAppFramework.app */;
 			productType = "com.apple.product-type.application";
 		};
-		855D8C2A1B95835000CB588B /* LIUAppFrameworkTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 855D8C381B95835000CB588B /* Build configuration list for PBXNativeTarget "LIUAppFrameworkTests" */;
-			buildPhases = (
-				855D8C271B95835000CB588B /* Sources */,
-				855D8C281B95835000CB588B /* Frameworks */,
-				855D8C291B95835000CB588B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				855D8C2D1B95835000CB588B /* PBXTargetDependency */,
-			);
-			name = LIUAppFrameworkTests;
-			productName = LIUAppFrameworkTests;
-			productReference = 855D8C2B1B95835000CB588B /* LIUAppFrameworkTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -725,10 +711,6 @@
 				TargetAttributes = {
 					855D8C111B95834F00CB588B = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					855D8C2A1B95835000CB588B = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 855D8C111B95834F00CB588B;
 					};
 				};
 			};
@@ -747,7 +729,6 @@
 			projectRoot = "";
 			targets = (
 				855D8C111B95834F00CB588B /* LIUAppFramework */,
-				855D8C2A1B95835000CB588B /* LIUAppFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -764,16 +745,12 @@
 				856DD9601B959D7700521DE1 /* LIUTeamViewController.xib in Resources */,
 				856DD94C1B959C7000521DE1 /* UIAlertView-Blocks.podspec in Resources */,
 				855D8C231B95835000CB588B /* Images.xcassets in Resources */,
+				856DD9701B96939B00521DE1 /* LIUHomeViewRecommendTableViewCell.xib in Resources */,
 				856DD9561B959D5F00521DE1 /* LIUCollectionViewController.xib in Resources */,
+				856DD9751B9693C600521DE1 /* LIUHomeCategoryCell.xib in Resources */,
 				856DD9201B959A1300521DE1 /* LoadMoreCell.xib in Resources */,
+				856DD97A1B969B4200521DE1 /* LIURecommendView.xib in Resources */,
 				856DD9471B959C7000521DE1 /* LICENSE in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		855D8C291B95835000CB588B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -823,13 +800,12 @@
 				856DD89C1B959A1300521DE1 /* ZHNetworkEntityClass.m in Sources */,
 				856DD8FD1B959A1300521DE1 /* ZHBaseTableCell.m in Sources */,
 				855D8C1E1B95835000CB588B /* ViewController.m in Sources */,
-				856DD8A91B959A1300521DE1 /* ZHUserObj.m in Sources */,
 				856DD8A51B959A1300521DE1 /* ZHRequestNetworkInterface.m in Sources */,
+				856DD9661B9691A900521DE1 /* ZHOrderObj.m in Sources */,
 				855D8C1B1B95835000CB588B /* AppDelegate.m in Sources */,
 				856DD9231B959A1300521DE1 /* ZHIndicatorView.m in Sources */,
 				856DD8621B959A1300521DE1 /* NSObject+KVC.m in Sources */,
 				856DD89A1B959A1300521DE1 /* ZHImageManager.m in Sources */,
-				856DD8A71B959A1300521DE1 /* ZHGuideInfo.m in Sources */,
 				856DD8D81B959A1300521DE1 /* ZHBaseViewController.m in Sources */,
 				856DD89E1B959A1300521DE1 /* ZHNetworkLoadDefault.m in Sources */,
 				856DD9391B959C4100521DE1 /* MJRefreshHeaderView.m in Sources */,
@@ -852,7 +828,7 @@
 				856DD8D71B959A1300521DE1 /* ZHBaseTableController.m in Sources */,
 				856DD95A1B959D6A00521DE1 /* LIUMyInfoViewController.m in Sources */,
 				856DD95F1B959D7700521DE1 /* LIUTeamViewController.m in Sources */,
-				856DD8A81B959A1300521DE1 /* ZHOrderObj.m in Sources */,
+				856DD97D1B96A63B00521DE1 /* UIImage+GetUrlImage.m in Sources */,
 				856DD91E1B959A1300521DE1 /* EGORefreshTableHeaderView.m in Sources */,
 				856DD8671B959A1300521DE1 /* UIColor+Additions.m in Sources */,
 				856DD89B1B959A1300521DE1 /* ZHCache.m in Sources */,
@@ -868,10 +844,14 @@
 				856DD9371B959C4100521DE1 /* MJRefreshConst.m in Sources */,
 				856DD8FE1B959A1300521DE1 /* ZHCellLineView.m in Sources */,
 				856DD9221B959A1300521DE1 /* ZHCycleScrollView.m in Sources */,
+				856DD96F1B96939B00521DE1 /* LIUHomeViewRecommendTableViewCell.m in Sources */,
+				856DD9791B969B4200521DE1 /* LIURecommendView.m in Sources */,
 				856DD8661B959A1300521DE1 /* UIButton+Block.m in Sources */,
 				856DD9211B959A1300521DE1 /* ZHButton.m in Sources */,
 				856DD9551B959D5F00521DE1 /* LIUCollectionViewController.m in Sources */,
+				856DD9631B96912800521DE1 /* ZHUserObject.m in Sources */,
 				856DD8691B959A1300521DE1 /* UITableView+Additions.m in Sources */,
+				856DD9741B9693C600521DE1 /* LIUHomeCategoryCell.m in Sources */,
 				856DD8651B959A1300521DE1 /* NSTimer+Addition.m in Sources */,
 				856DD8631B959A1300521DE1 /* NSString+Additions.m in Sources */,
 				856DD9481B959C7000521DE1 /* README.md in Sources */,
@@ -884,23 +864,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		855D8C271B95835000CB588B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				855D8C321B95835000CB588B /* LIUAppFrameworkTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		855D8C2D1B95835000CB588B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 855D8C111B95834F00CB588B /* LIUAppFramework */;
-			targetProxy = 855D8C2C1B95835000CB588B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		855D8C1F1B95835000CB588B /* Main.storyboard */ = {
@@ -1022,7 +986,7 @@
 				New_Setting = "";
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Pods";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
@@ -1040,41 +1004,7 @@
 				New_Setting = "";
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Pods";
-			};
-			name = Release;
-		};
-		855D8C391B95835000CB588B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = LIUAppFrameworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LIUAppFramework.app/LIUAppFramework";
-			};
-			name = Debug;
-		};
-		855D8C3A1B95835000CB588B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = LIUAppFrameworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LIUAppFramework.app/LIUAppFramework";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};
@@ -1095,15 +1025,6 @@
 			buildConfigurations = (
 				855D8C361B95835000CB588B /* Debug */,
 				855D8C371B95835000CB588B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		855D8C381B95835000CB588B /* Build configuration list for PBXNativeTarget "LIUAppFrameworkTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				855D8C391B95835000CB588B /* Debug */,
-				855D8C3A1B95835000CB588B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

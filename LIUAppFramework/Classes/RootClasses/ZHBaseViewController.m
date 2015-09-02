@@ -9,6 +9,7 @@
 #import "ZHBaseViewController.h"
 #import "ZHIndicatorView.h"
 #import "ZHToastView.h"
+#import "ZHCommonObject.h"
 
 #import "ZHBaseNavigationController.h"
 
@@ -286,8 +287,8 @@
 //        [self requestError:errorDic];
 //    }];
     WS(ws);
-    interface = [ZHRequestNetworkInterface interfaceWithFinshBlock:^(id responseObje) {
-        if ([[responseObje objectForKey:@"ret"] intValue] == 0) {
+   interface = [ZHRequestNetworkInterface interfaceWithFinshBlock:^(id responseObje) {
+        if ([[responseObje objectForKey:@"ErrorCode"] intValue] == 200) {
             [ws requestSuccess:responseObje];
         } else {
             [ws requestError:responseObje];
@@ -298,14 +299,13 @@
    
     [interface setAnalyZingType:ZHNetworkAnalyZingTypeJSON];
     [interface setLoadProgressBlock:^(unsigned long long size, unsigned long long total){
-        NSLog(@"zhge shi ganma de ");
     }];
 
     NSMutableArray *array = [NSMutableArray array];
     // 添加token参数
-    ZHUserObj *userObj = [ZHConfigObj configObject].userObject;
-    if (userObj.token) {
-        [array addParameter:@"token" parameterValue:userObj.token parameterType:ZHNetworkParameterTypeDefault];
+    ZHUserObject *userObj = [ZHConfigObj configObject].userObject;
+    if (userObj.Id) {
+        [array addParameter:@"userid" parameterValue:userObj.Id parameterType:ZHNetworkParameterTypeDefault];
     }
     
     NSArray *allkeys = [parameters allKeys];
@@ -319,7 +319,8 @@
             [array addParameter:key parameterValue:value parameterType:ZHNetworkParameterTypeDefault];
 //        }
     }
-    [interface starLoadInformationWithParameters:array URLString:kGetRequestUrl(method) connectType:ZHNetworkTypePost];
+    
+    [interface starLoadInformationWithParameters:array URLString:kGetRequestUrl(method) connectType:ZHNetworkTypeGet];
 }
 
 - (void)requestMethod:(NSString *)method parameter:(NSDictionary *)parameters Success:(SuccessBlock)success Error:(ErrorBlock)error {
@@ -422,13 +423,7 @@
 
 #pragma --mark 判断游客是否登录
 - (BOOL)userIsLogin {
-    ZHUserObj *userObj = [ZHConfigObj configObject].userObject;
-    
-    if (userObj.token.length == 0) {
-        return NO;
-    }else {
-        return YES;
-    }
+    return [ZHCommonObject checkLogin:self];
 }
 
 @end

@@ -73,9 +73,9 @@
     NSString *formatUrl = nil;
     NSString *url = [self getUrl:method];
     
-    ZHUserObj *userObj = [ZHConfigObj configObject].userObject;
-    if (userObj.token) {
-        [bodyStr appendFormat:@"%@=%@&", @"token", userObj.token];
+    ZHUserObject *userObj = [ZHConfigObj configObject].userObject;
+    if (userObj.Id) {
+        [bodyStr appendFormat:@"%@=%@&", @"userid", userObj.Id];
     }
     
     if (parameters) {
@@ -119,7 +119,7 @@
             
             if (!jsonError) {
                 kMainQueue(^{
-                    if (result && [[result objectForKey:@"ret"] intValue] == 0) {
+                    if (result && [result[@"ErrorCode"] integerValue] == 200) {
                         if (successBlock) {
                             successBlock(result);
                         }

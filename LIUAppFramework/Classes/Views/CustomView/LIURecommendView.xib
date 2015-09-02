@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LIURecommendView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Guh-u5-Cdu">
+                    <rect key="frame" x="0.0" y="0.0" width="106" height="149"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="B1">
+                        <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="tapButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="38X-Eb-W6w"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6iF-Rq-xyh">
+                    <rect key="frame" x="107" y="0.0" width="213" height="74"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="B2">
+                        <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="tapButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="07a-Zg-qoB"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VPo-xG-EQ4">
+                    <rect key="frame" x="107" y="75" width="106" height="74"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="B3">
+                        <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="tapButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="fkH-9M-TRY"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2jm-O8-5Yo">
+                    <rect key="frame" x="214" y="75" width="106" height="74"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="B4">
+                        <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="tapButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="J01-dy-Xx8"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.76104797979797967" green="0.76104797979797967" blue="0.76104797979797967" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="2jm-O8-5Yo" firstAttribute="leading" secondItem="VPo-xG-EQ4" secondAttribute="trailing" constant="1" id="1fO-OS-udw"/>
+                <constraint firstAttribute="bottom" secondItem="2jm-O8-5Yo" secondAttribute="bottom" constant="1" id="1sv-tO-5rJ"/>
+                <constraint firstItem="2jm-O8-5Yo" firstAttribute="width" secondItem="Guh-u5-Cdu" secondAttribute="width" id="8DW-nI-L7h"/>
+                <constraint firstAttribute="trailing" secondItem="6iF-Rq-xyh" secondAttribute="trailing" id="907-NX-uI0"/>
+                <constraint firstItem="Guh-u5-Cdu" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="BXJ-wc-VRi"/>
+                <constraint firstItem="VPo-xG-EQ4" firstAttribute="top" secondItem="6iF-Rq-xyh" secondAttribute="bottom" constant="1" id="Cgt-ii-h00"/>
+                <constraint firstItem="VPo-xG-EQ4" firstAttribute="top" secondItem="6iF-Rq-xyh" secondAttribute="bottom" constant="1" id="CiS-Nu-Rpy"/>
+                <constraint firstItem="6iF-Rq-xyh" firstAttribute="leading" secondItem="Guh-u5-Cdu" secondAttribute="trailing" constant="1" id="Dd5-sj-qK5"/>
+                <constraint firstItem="VPo-xG-EQ4" firstAttribute="leading" secondItem="Guh-u5-Cdu" secondAttribute="trailing" constant="1" id="Fcv-Dx-Qe7"/>
+                <constraint firstItem="2jm-O8-5Yo" firstAttribute="top" secondItem="6iF-Rq-xyh" secondAttribute="bottom" constant="1" id="Jmn-l4-S4D"/>
+                <constraint firstItem="2jm-O8-5Yo" firstAttribute="width" secondItem="VPo-xG-EQ4" secondAttribute="width" id="NjK-Xa-pVB"/>
+                <constraint firstItem="2jm-O8-5Yo" firstAttribute="height" secondItem="VPo-xG-EQ4" secondAttribute="height" id="XDU-lp-DLT"/>
+                <constraint firstItem="2jm-O8-5Yo" firstAttribute="leading" secondItem="VPo-xG-EQ4" secondAttribute="trailing" constant="1" id="eTH-k6-tch"/>
+                <constraint firstAttribute="bottom" secondItem="VPo-xG-EQ4" secondAttribute="bottom" constant="1" id="jXm-tI-qdm"/>
+                <constraint firstItem="2jm-O8-5Yo" firstAttribute="height" secondItem="6iF-Rq-xyh" secondAttribute="height" id="m9k-mb-PY7"/>
+                <constraint firstAttribute="bottom" secondItem="Guh-u5-Cdu" secondAttribute="bottom" constant="1" id="n7p-uZ-vFf"/>
+                <constraint firstAttribute="trailing" secondItem="2jm-O8-5Yo" secondAttribute="trailing" id="q8Z-pZ-VVE"/>
+                <constraint firstItem="VPo-xG-EQ4" firstAttribute="leading" secondItem="Guh-u5-Cdu" secondAttribute="trailing" constant="1" id="rfG-kn-qvc"/>
+                <constraint firstItem="6iF-Rq-xyh" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="wJO-Pm-hBl"/>
+                <constraint firstItem="Guh-u5-Cdu" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="yJz-Gn-DZb"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outletCollection property="shoppingButton" destination="Guh-u5-Cdu" id="GZu-ct-Vaa"/>
+                <outletCollection property="shoppingButton" destination="6iF-Rq-xyh" id="4IQ-PQ-Fj5"/>
+                <outletCollection property="shoppingButton" destination="VPo-xG-EQ4" id="97r-DI-opB"/>
+                <outletCollection property="shoppingButton" destination="2jm-O8-5Yo" id="InP-XY-zO2"/>
+            </connections>
+            <point key="canvasLocation" x="327" y="489"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
